@@ -18,3 +18,4 @@ y_pred = clf.predict(X_test)
 # Calcular la precisión del clasificador
 accuracy = accuracy_score(y_test, y_pred)
 print("Precisión del clasificador:", accuracy)
+
